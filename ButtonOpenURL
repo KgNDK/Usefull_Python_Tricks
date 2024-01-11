@@ -1,0 +1,20 @@
+#---------------------------------
+# Random Resource Web ©
+# Randomresourceweb.blogspot.com
+#---------------------------------
+
+from tkinter import *
+import webbrowser
+
+root = Tk()
+
+new = 1
+url = "https://www.google.com"
+
+def openweb():
+    webbrowser.open(url)
+
+Btn = Button(root, text = "This opens Google",command=openweb)
+Btn.pack()
+
+root.mainloop()
