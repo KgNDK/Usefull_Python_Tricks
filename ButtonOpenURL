@@ -1,6 +1,5 @@
 #---------------------------------
-# Random Resource Web ©
-# Randomresourceweb.blogspot.com
+# A tkinter button to open a web URL
 #---------------------------------
 
 from tkinter import *
