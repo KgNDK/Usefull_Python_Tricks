@@ -1,3 +1,6 @@
+#---------------------------------
+# A function to convert secounds into days, hours, minutes, and seconds
+#---------------------------------
 
 
 def get_readable_time(seconds: int) -> str:
